@@ -2,8 +2,10 @@
 This repository contains implementations of DiT (Scalable Diffusion Models with Transformers)
 
 ## Git clone
+forked from Jourdan's gitHub: https://github.com/Jrampoldi/DiT
+
 ```bash
-git clone https://github.com/Jrampoldi/DiT.git
+git clone https://github.com/azeroman7/DiT.git
 ```
 
 ## Install Environment via Anaconda (Recommended)
@@ -13,10 +15,15 @@ conda env create -f environment.yml
 conda activate DiT
 ```
 
-## Run Script
+## Run Script --> results will be *.png at the ./
+For 512x512 image with seed 1
 ```bash
-chmod 777 run.sh
-./run.sh
+./run1.sh
+```
+
+For 256x256 image with seed 2, num-sampling-steps 500, and cfg-scale 1.0
+```bash
+./run2.sh
 ```
 
 ## Troubleshoot
