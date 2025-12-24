@@ -2,7 +2,7 @@
 This repository contains implementations of DiT (Scalable Diffusion Models with Transformers)
 
 ## Git clone
-forked from Jourdan's gitHub: https://github.com/Jrampoldi/DiT
+from Jourdan's gitHub: https://github.com/Jrampoldi/DiT
 
 ```bash
 git clone https://github.com/azeroman7/DiT.git
