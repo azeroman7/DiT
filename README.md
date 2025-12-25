@@ -13,5 +13,5 @@ docker pull azeroman7/dit-image:v1.0
 ```bash
 docker run --gpus all -it azeroman7/dit-image:v1.0
 conda activate DiT
-./run_sh
+./DiT/run_sh
 ```
